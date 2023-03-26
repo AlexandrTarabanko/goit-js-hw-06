@@ -15,7 +15,7 @@ inputRef.addEventListener("input", onInputWriting);
 //   if (!inputValue) {
 //     spanRef.textContent = "Anonymous";
 //   } else {
-//     spanRef.textContent = inputValue.trim();          // без тернарного
+//     spanRef.textContent = inputValue.trim(); // без тернарного
 //   }
 // };
 
