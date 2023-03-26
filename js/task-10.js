@@ -26,11 +26,11 @@ const createBoxes = (amount) => {
   for (let i = 0; i < amount; i += 1) {
     const newDiv = document.createElement("div");
     initialSize += 10;
-    newDiv.style.width = `${initialSize}`;
-    newDiv.style.height = `${initialSize}`;
+    newDiv.style.width = `${initialSize}px`;
+    newDiv.style.height = `${initialSize}px`;
     newDiv.style.marginRight = `20px`;
     newDiv.style.marginBottom = `20px`;
-    newDiv.backgroundColor = getRandomHexColor();
+    newDiv.style.backgroundColor = getRandomHexColor();
     divArrayQuantity.push(newDiv);
   }
   return divBoxRef.append(...divArrayQuantity);
